@@ -4,13 +4,17 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import UserNameComponent from "./user_name1";
 import DisplayUserName from "./username2";
+import Theme from "./theme";
 
 function App() {
   return (
     <>
-      <UserNameComponent>
+      {/* <UserNameComponent>
         <DisplayUserName />
-      </UserNameComponent>
+      </UserNameComponent> */}
+      <Theme>
+        <DisplayUserName />
+      </Theme>
     </>
   );
 }
